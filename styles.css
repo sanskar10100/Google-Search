@@ -7,7 +7,7 @@
     align-items: center;
 }
 
-input[type="text"] {
+.input-search {
     width: 30vw;
     font-size: 16px;
     border: 1px solid lightgrey;
@@ -67,4 +67,36 @@ a:link, a:visited {
 a:hover, a:active {
     text-decoration: underline;
     color: darkblue;
+}
+
+.form-group {
+    margin-top: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 200px;
+    text-align: left;
+}
+
+.form-group input {
+    padding: 10px;
+        width: 30%;
+        margin: auto;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+}
+
+.form-group input:focus {
+    border: 1px solid blue;
+}
+
+.advanced-search-form input[type="submit"] {
+    margin-top: 30px;
+    background-color: dodgerblue;
+    color: white;
+}
+
+.advanced-search-form input[type="submit"]:hover {
+    background-color: royalblue;
 }
